@@ -7,8 +7,6 @@ public class 방문길이 {
 
     public static void main(String[] args) {
 
-        import java.util.*;
-
         class Solution {
             static int[] dX = {0, 1, 0, -1};
             static int[] dY = {-1, 0, 1, 0};
@@ -46,7 +44,7 @@ public class 방문길이 {
                 answer = set.size() / 2;
 
 //         int answer = 0;
-//         boolean[][][] visited = new boolean[11][11][4];
+//         boolean[][][] visited = new boolean[11][11][4]; // 왕복하는 것도 생각해야 돼서 3차원
 //         int x = 5, y = 5, d = 0; // 현재 x, y좌표 위치(0 ~ 5 -> -5 ~ 0, 6 ~ 11, 0 ~ 5)
 
 //         for (char c : dirs.toCharArray()) {
@@ -62,10 +60,10 @@ public class 방문길이 {
 //                 continue;
 //             }
 
-//             if (!visited[nX][nY][d]) {
-//                 visited[nX][nY][d] = true;
+//             if (!visited[nX][nY][d]) { // 움직일 좌표가 방문 안했다면
+//                 visited[nX][nY][d] = true; // 움직일 좌표 방문 처리
 //                 d = d % 2 == 0 ? 2 - d : 4 - d;
-//                 visited[x][y][d] = true;
+//                 visited[x][y][d] = true; // 원래 자리를 반대 방향으로 오는 것 방문 처리
 //                 answer++;
 //             }
 //             x = nX;
