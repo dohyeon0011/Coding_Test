@@ -1,4 +1,4 @@
-package level1;
+package programmers.level1;
 
 public class 최대공약수and최소공배수 {
     public int[] solution(int n, int m) {
