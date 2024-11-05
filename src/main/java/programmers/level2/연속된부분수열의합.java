@@ -31,5 +31,3 @@ public class 연속된부분수열의합 {
             return answer;
         }
     }
-
-}

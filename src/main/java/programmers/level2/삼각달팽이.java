@@ -43,4 +43,3 @@ public class 삼각달팽이 {
         }
     }
 
-}
