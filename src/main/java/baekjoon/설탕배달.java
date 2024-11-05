@@ -1,7 +1,7 @@
 package baekjoon;
 
 public class 설탕배달 {
-    static int sugarBox = 6;
+    static int sugarBox = 18;
 
     public static void main(String[] args) {
         // 5 5 5 3
