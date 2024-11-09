@@ -1,8 +1,6 @@
-package baekjoon;
+package baekjoon.DP;
 
 import java.io.*;
-import java.util.Scanner;
-import java.util.StringTokenizer;
 
 public class one으로만들기 {
     // 백준은 이상하게 이거 시간 초과로 바로 뜸

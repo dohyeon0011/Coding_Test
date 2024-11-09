@@ -1,7 +1,6 @@
-package baekjoon;
+package baekjoon.DP;
 
 import java.io.*;
-import java.net.SocketTimeoutException;
 
 public class one_two_three더하기 {
     // 1 : 1 = 1

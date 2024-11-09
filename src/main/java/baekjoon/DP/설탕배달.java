@@ -1,4 +1,4 @@
-package baekjoon;
+package baekjoon.DP;
 
 public class 설탕배달 {
     static int sugarBox = 18;
