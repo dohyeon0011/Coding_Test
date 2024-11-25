@@ -2,7 +2,7 @@ package baekjoon.DP;
 
 import java.io.*;
 
-public class 부녀회장이될테야 {
+public class 부녀회장이될테야_2775 {
 
     public static void main(String[] args) throws IOException {
         // 2 0 1 4 10 20

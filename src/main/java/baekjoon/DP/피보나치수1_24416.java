@@ -2,7 +2,7 @@ package baekjoon.DP;
 
 import java.io.*;
 
-public class 피보나치수1 {
+public class 피보나치수1_24416 {
     static int recursionCnt, dpCnt = 0;
 
     public static void main(String[] args) throws IOException {

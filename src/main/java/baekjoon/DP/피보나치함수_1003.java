@@ -3,7 +3,7 @@ package baekjoon.DP;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class 피보나치함수 {
+public class 피보나치함수_1003 {
     static int[] cnt0Arr;
     static int[] cnt1Arr;
 
