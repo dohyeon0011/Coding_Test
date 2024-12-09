@@ -17,16 +17,20 @@ public class 단어정렬_1181 {
         }
         String[] strArr = set.toArray(new String[set.size()]);
 
-        Arrays.sort(strArr, new Comparator<String>() {
-            @Override
-            public int compare(String o1, String o2) {
-                if (o1.length() == o2.length()) {
-                    return o1.compareTo(o2);
-                } else {
-                    return o1.length() - o2.length();
-                }
-            }
+        Arrays.sort(strArr, (s1, s2) -> {
+            return s1.length() == s2.length() ? s1.compareTo(s2) : s1.length() - s2.length();
         });
+
+//        Arrays.sort(strArr, new Comparator<String>() {
+//            @Override
+//            public int compare(String o1, String o2) {
+//                if (o1.length() == o2.length()) {
+//                    return o1.compareTo(o2);
+//                } else {
+//                    return o1.length() - o2.length();
+//                }
+//            }
+//        });
 
         for (String s : strArr) {
             bw.write(String.valueOf(s) + "\n");
