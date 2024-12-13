@@ -14,7 +14,7 @@ public class 덩치_7568 {
         int[] rankArr = new int[len];
 
         for (int i = 0; i < len; i++) {
-            st = new StringTokenizer(br.readLine(), " ");
+            st = new StringTokenizer(br.readLine());
             intArr[i][0] = Integer.parseInt(st.nextToken()); // 몸무게
             intArr[i][1] = Integer.parseInt(st.nextToken()); // 키
         }
