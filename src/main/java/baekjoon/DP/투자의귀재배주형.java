@@ -3,7 +3,7 @@ package baekjoon.DP;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class 투자의귀재배주형_19947 {
+public class 투자의귀재배주형 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

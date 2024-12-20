@@ -1,6 +1,6 @@
 package baekjoon.DP;
 
-public class 설탕배달_2839 {
+public class 설탕배달 {
     static int sugarBox = 18;
 
     public static void main(String[] args) {

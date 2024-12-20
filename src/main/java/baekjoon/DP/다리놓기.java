@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.StringTokenizer;
 
 // 확통 중복조합 활용
-public class 다리놓기_1010 {
+public class 다리놓기 {
     static final int[][] dp = new int[31][31]; // 0 < N <= M < 30
 
     public static void main(String[] args) throws IOException {

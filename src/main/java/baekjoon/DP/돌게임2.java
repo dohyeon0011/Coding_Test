@@ -2,7 +2,7 @@ package baekjoon.DP;
 
 import java.io.*;
 
-public class 돌게임2_9656 {
+public class 돌게임2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));

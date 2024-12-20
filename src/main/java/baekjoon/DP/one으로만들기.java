@@ -2,7 +2,7 @@ package baekjoon.DP;
 
 import java.io.*;
 
-public class one으로만들기_1463 {
+public class one으로만들기 {
     // 백준은 이상하게 이거 시간 초과로 바로 뜸
     /*static Integer[] dp; // null로 체크하기 위해서
 

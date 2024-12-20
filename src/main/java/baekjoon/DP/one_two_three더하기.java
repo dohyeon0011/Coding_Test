@@ -2,7 +2,7 @@ package baekjoon.DP;
 
 import java.io.*;
 
-public class one_two_three더하기_9095 {
+public class one_two_three더하기 {
     // 1 : 1 = 1
     // 2 : 1+1, 2 = 2
     // 3 : 1+1+1, 1+2, 2+1 = 3

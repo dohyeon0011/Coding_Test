@@ -2,7 +2,7 @@ package baekjoon.DP;
 
 import java.io.*;
 
-public class 계단오르기_2579 {
+public class 계단오르기 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

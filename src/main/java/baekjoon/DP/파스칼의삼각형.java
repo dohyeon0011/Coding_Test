@@ -3,7 +3,7 @@ package baekjoon.DP;
 import java.io.*;
 import java.util.StringTokenizer;
 
-public class 파스칼의삼각형_16395 {
+public class 파스칼의삼각형 {
     public static void main(String[] args) throws IOException {
         // 1
         // 1 1

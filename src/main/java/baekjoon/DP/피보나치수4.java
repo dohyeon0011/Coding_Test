@@ -3,7 +3,7 @@ package baekjoon.DP;
 import java.io.*;
 import java.math.BigInteger;
 
-public class 피보나치수4_10826 {
+public class 피보나치수4 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
