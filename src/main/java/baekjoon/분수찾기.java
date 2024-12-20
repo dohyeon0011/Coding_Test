@@ -2,7 +2,7 @@ package baekjoon;
 
 import java.io.*;
 
-public class 분수찾기_1193 {
+public class 분수찾기 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
