@@ -2,9 +2,8 @@ package baekjoon;
 
 import java.io.*;
 import java.util.Arrays;
-import java.util.Collections;
 
-public class 수정렬하기2_2751 {
+public class 수정렬하기2 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
