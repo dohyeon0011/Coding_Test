@@ -1,9 +1,8 @@
 package baekjoon;
 
 import java.io.*;
-import java.util.StringTokenizer;
 
-public class 팩토리얼0의개수_1676 {
+public class 팩토리얼0의개수 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
