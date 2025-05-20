@@ -32,6 +32,12 @@ public class 호텔대실 {
             return b1[0] - b2[0];
         });
 
+        // 1710 1930 2130
+        // 1410 1930 +1
+        // 1420 1530 +1
+        // 1500 1710 +1
+        // 1640 1830 -1 +1
+        // 1820 2130 -1 +1
         PriorityQueue<Integer> pq = new PriorityQueue<>();
         for (int i = 0; i < booking.length; i++) {
             if (!pq.isEmpty()) {
